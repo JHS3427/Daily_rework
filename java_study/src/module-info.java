@@ -4,5 +4,5 @@
 /**
  * 
  */
-module FirstClass {
+module java_study {
 }

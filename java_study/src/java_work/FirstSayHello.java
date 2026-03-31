@@ -1,4 +1,4 @@
-package firstday;
+package java_work;
 
 public class FirstSayHello {
 
