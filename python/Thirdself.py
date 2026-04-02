@@ -49,8 +49,9 @@ class SmartPhone:
         return f"값은 : {self.__price}"
 
 phone = SmartPhone(10000)
-
+ 
 print(phone.get_price())
+print(phone._SmartPhone__price)
 
 print(phone)
 
