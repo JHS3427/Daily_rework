@@ -8,7 +8,7 @@ class Galaxy(Phone):
     # self는 자바의 this와 같습니다. "나 자신"을 가리키죠.
     # self는 무조건 매개변수의 첫번째 자리에 써야한다. 호출할땐 안써도 된다.
     #def __init__(self, model="ready"): 이렇게 해두면 안들어 왔을때의 defalut값을 정해둘 수 있다.
-    #대신 기본값이 정해진건 뒤로 다른 기본값이 없는 변수 뒤로 빼야한다.
+    #대신 기본값이 정해진건 뒤로. 다른 기본값이 없는 변수 뒤로 빼야한다.
     #아니면 model = None같은거로 정해두고 if model is None: model="ready" 이런식으로 하던지
     def __init__(self, model):
         self.model = model  # 객체 안에 model이라는 데이터를 저장합니다.
